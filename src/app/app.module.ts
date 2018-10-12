@@ -16,6 +16,7 @@ import {
 import { PostCreateComponent } from './posts/post-create/post-create.component';
 import { AppComponent } from './app.component';
 import { PostsService } from './posts/posts.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { PostsService } from './posts/posts.service';
     MatButtonModule,
     MatToolbarModule,
     MatExpansionModule,
+    HttpClientModule,
     BrowserAnimationsModule
   ],
   providers: [
